@@ -1,9 +1,17 @@
 package org.daniel.alduenda.actividadez.actividad1.modelos;
 
 public class Carro {
+
+    /**
+     * crea los objetos pertenecientes a la clase (Carro)
+     */
+
     private String modelo;
+
     private String marca;
+
     private int numeroPuertas;
+
     private String color;
 
     @Override
@@ -19,8 +27,9 @@ public class Carro {
     public Carro(String modelo, String marca, int numeroPuertas, String color) {
         this.modelo = modelo;
         this.marca = marca;
-        setNumeroPuertas(numeroPuertas);
         this.color = color;
+        setNumeroPuertas(numeroPuertas);
+
 
     }
 
@@ -28,9 +37,14 @@ public class Carro {
         return numeroPuertas;
     }
 
+    /**
+     * @throws IllegalArgumentException
+     * @param numeroPuertas solo acepta valores mayores de 2 y menores de 5. -
+     */
+
     public void setNumeroPuertas(int numeroPuertas){
         if(numeroPuertas<2 || numeroPuertas>5){
-            throw new IllegalArgumentException("Número de puertas no valido, prueba un número entre 2 y 5. -");
+            throw new IllegalArgumentException("El número de puertas no es valido; intenta con un número entre 2 y 5. -");
         }
 
         this.numeroPuertas = numeroPuertas;
