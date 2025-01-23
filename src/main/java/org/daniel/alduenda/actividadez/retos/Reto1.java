@@ -1,4 +1,4 @@
-package org.daniel.alduenda.actividadez.actividad2.retos;
+package org.daniel.alduenda.actividadez.retos;
 
 public class Reto1 {
     public static void main (String[] args) {
