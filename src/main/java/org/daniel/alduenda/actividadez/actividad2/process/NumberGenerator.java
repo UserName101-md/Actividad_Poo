@@ -17,14 +17,14 @@ public class NumberGenerator {
      */
     public void generadorNumeros() {
         for (int i = 0; i <= 100; i += 2) {
-            numerosGenerados.add(i); // Agregamos números pares
+            numerosGenerados.add(i);
         }
     }
 
     /**
      * @return regresa la lista de numeros generados
      */
-    public String numeroGeneradosTexto() {
+    public String numerosGeneradosTexto() {
         return numerosGenerados.toString();
     }
 

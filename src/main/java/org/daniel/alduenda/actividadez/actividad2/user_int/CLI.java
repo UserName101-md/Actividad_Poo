@@ -57,7 +57,7 @@ public class CLI {
                     /**
                      * Trayendo los numeros generados como texto
                      */
-                    String numbers = generator.numeroGeneradosTexto();
+                    String numbers = generator.numerosGeneradosTexto();
                     System.out.println("[@] Lista de Numeros (Pares): ");
                     System.out.println(numbers);
                     System.out.println("");
