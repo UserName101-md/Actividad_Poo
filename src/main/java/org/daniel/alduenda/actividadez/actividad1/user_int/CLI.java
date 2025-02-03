@@ -7,6 +7,7 @@ import java.util.Scanner;
 /**
  * CLI es la interfaz que funciona como menú principal del programa
  */
+
 public class CLI {
 
     public static void runApp() {
