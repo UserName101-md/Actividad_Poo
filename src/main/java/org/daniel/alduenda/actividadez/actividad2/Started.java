@@ -1,5 +1,4 @@
 package org.daniel.alduenda.actividadez.actividad2;
-
 import org.daniel.alduenda.actividadez.actividad2.user_int.CLI;
 
 /**
